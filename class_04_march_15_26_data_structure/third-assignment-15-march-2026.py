@@ -25,11 +25,12 @@ product_with_total_info = [list(pair) for pair in zip(products, amazon_prices, f
 # print(product_with_total_info)
 
 
-
-# Compares the price of each product across both platforms.
-# Determines which platform offers the lower price.
-# Calculates the difference between the two prices.
-# Displays the product name, cheaper platform, and price difference.
+"""
+Compares the price of each product across both platforms.
+Determines which platform offers the lower price.
+Calculates the difference between the two prices.
+Displays the product name, cheaper platform, and price difference.
+"""
 counter_cheap_product_on_amazon     = 0
 counter_cheap_product_on_flipkart   = 0
 cheap_product_on_amazon             = list()
